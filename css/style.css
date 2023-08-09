@@ -1,0 +1,147 @@
+body {
+  overflow-x: hidden;
+}
+@media screen and (max-width: 992px) {
+  h1 {
+    /* top: -424px; */
+    font-size: 44px !important;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 24px;
+    margin-bottom: 31.5px !important;
+  }
+  .contact-section {
+    background: #d9d9d9;
+    margin-left: 14px !important;
+    margin-right: 14px !important;
+    margin-bottom: 38px;
+  }
+  .form-col{
+    margin: 0px !important;
+    padding: 30px !important;
+  }
+}
+.header {
+  height: 165px;
+  display: flex;
+}
+.header div:nth-child(1) {
+  background: #00b8ad;
+  flex-basis: 24%;
+}
+.header div:nth-child(2) {
+  background: #6e8238;
+  flex-basis: 76%;
+}
+.navbar {
+  background: #a3904d;
+  padding-left: 52.5px !important;
+  margin-bottom: 45px;
+}
+.nav-link {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin-right: 31px;
+}
+.haberler {
+  background-color: #d9d9d9;
+  margin-bottom: 45px;
+}
+h1 {
+  /* top: -424px; */
+  font-size: 64px !important;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 24px;
+  margin-bottom: 31.5px !important;
+}
+.news-card {
+  background-color: #44948a;
+  width: 288px;
+  height: 291px;
+  margin-bottom: 38px;
+}
+.news-col {
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  background: #336981;
+  padding-top: 21px;
+  margin-bottom: 38px;
+}
+.about-title {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77.45px;
+}
+.about-text {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 23px;
+  letter-spacing: 0.6px;
+  padding: 23px 44px 29px 44px;
+}
+
+.service-card {
+  height: 291px;
+  width: 288px;
+  background: #44948a;
+  margin-bottom: 38px;
+}
+
+.services-col {
+  display: flex;
+  justify-content: center;
+}
+.services-section {
+  background: #d9d9d9;
+  margin-bottom: 38px;
+}
+.contact-section {
+  background: #d9d9d9;
+  margin-left: 44px;
+  margin-right: 44px;
+  margin-bottom: 38px;
+  height: 450px;
+}
+.form-col{
+  margin-left: 40px;
+}
+.btn{
+  float: right;
+  background: #656565 !important;
+  border-color: #656565 !important;
+}
+.form-control{
+  background: #656565 !important;
+}
+
+.footer-section{
+  background: #2E2E2E;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.footer-section > p {
+  margin: 0px !important;
+  color: white;
+ 
+}
+.footer-section > p > span {
+  color: #68C9FF !important;
+}
+.fa-bars{
+  color: white;
+  font-size: 30px;
+}
